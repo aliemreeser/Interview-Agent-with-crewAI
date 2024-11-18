@@ -1,0 +1,63 @@
+Analytical and detail-oriented Mathematical Engineering graduate with a solid foundation in data science, machine learning, and AI.
+Experienced in image processing, particularly in noise removal using Convolutional Autoencoders and classification problems. Familiar
+with using TensorFlow and skilled in data analysis, statistical modeling, and machine learning methods. Portfolio of projects showcased
+on GitHub. Eager to leverage theoretical knowledge and practical skills to contribute to a dynamic team and add value to the company.
+S K I L L S:
+Python 3
+Matlab
+Java
+C++
+English
+
+EDUCATION:
+Istanbul Technical University, Istanbul
+Mathematics Engineering
+
+I had a one-month summer internship experience at TURKCELL where I worked in the IT department. I had the opportunity to
+work one-on-one with my mentor while developing our web application project for a month. It was a productive process where I
+remembered the infrastructure required to develop a simple store and learned what I lacked. Programs used during
+development of the application; Java, postgreSQL and spring framework.
+
+WORK EXPERIENCE:
+TURKCELL, İstanbul
+Aug 2023 - Sep 2023
+Softtech, İstanbul
+Aug 2022 - Sep 2022
+My internship at Softtech was productive. I received various training on the sector and working life. We formed a group
+with other interns. We developed an android application covering payment systems and travel issues. In our application;
+we used Java, android studio and postgreSQL. I mostly took part in database formation in postreSQL and backend in Java.
+
+PROJECTS:
+Image Classifier With CNN Model and Gradio Interface:
+Created a Convolutional Neural Network (CNN) to classify images of fruits and vegetables. The model was trained
+using a diverse dataset and improved by adjusting its layers and settings to get accurate predictions.
+Additionally, developed an easy-to-use interface with the gradio library.
+Removing Noise from Images Using Convolutional Auto-Encoders (Graduation Thesis)
+A detailed article was written on computer vision, deep learning and noise removing. In the experimental process,
+image noise was removed by using convolutional autoencoders. The model was developed as a result of
+hyperparameter settings. In addition, the results of the deep learning model are compared with traditional filtering
+models such as gaussian filter, bilateral filter and median filter and the results are documented. Studies on
+generalised noise removing model were also carried out.
+
+Machine Learning and Data Science (Garanti Project):
+This was a classification project. There were two different datasets, city and house data. The data was merged. New
+columns have been added to increase accuracy in machine learning methods with feature engineering. Data cleaning
+processes were monitored and outlier values were filled with new predicted scores. Some features were deleted to
+prevent multicollinearity problem. Data leakage problem was taken into consideration and data was prepared to be
+trained. Finally, cat boost and random forest classifier models were run. Grid search and validation curve
+methods were used for hyperparameter tuning.
+
+Machine Learning and Data Science (Airbnb project):
+In the 'Data Analysis in Fund.Sciences' course, data analysis processes are covered in detail and the working principles of
+machine learning models are covered in mathematical details. This project is one of the assignments of this course. Some
+feature engineering methods were used to generate meaningful information between data columns. Outlier
+detection methods were used and dealt with. The random forest model was used for predictions and the validation
+curve for hyperparameter tuning was analysed to decide on the best possible model.
+
+Book Store Web Application:
+For my Java course, I designed a bookstore application on the web. A book application design that includes basic features
+such as buying and selling transactions, adding and removing books, filtering and so on has been implemented in java
+language.
+
+Distance measurement sensor and graphic generator using Matlab and Ardunio.
+To view these projects and more, please visit my GitHub page.
