@@ -90,6 +90,13 @@ Generates new questions based on the candidate’s history and previous answers.
 4. **Interview Termination**:
 Check the termination conditions and terminate the program id there is any.
 
+---
+## Web Outputs
+1. **Main Page**
+![Main Page](https://github.com/aliemreeser/Interview-Agent-with-crewAI/blob/main/Screenshot%202024-11-20%20at%2018.45.16.png)
+2. **Questions&Answers**
+   ![Q&A](https://github.com/aliemreeser/Interview-Agent-with-crewAI/blob/main/Screenshot%202024-11-20%20at%2018.35.45.png)
+
 # Interview Process Analysis and Sample Conversations
 
 ## Analysis
