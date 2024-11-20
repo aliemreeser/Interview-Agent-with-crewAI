@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Agent</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Interview Agent</h1>
+        </header>
+
+        <main>
+            <!-- Conversation History Section -->
+            <div class="conversation-history">
+                <h2>Conversation History</h2>
+                <ul>
+                    {% for entry in history %}
+                        <li>
+                            <strong>Interviewer:</strong> {{ entry.question }}<br>
+                            <strong>Candidate:</strong> {{ entry.answer or "No answer yet." }}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <!-- Current Question Section -->
+            <div class="current-question">
+                <h2>Current Question</h2>
+                <p>{{ question }}</p>
+            </div>
+
+            <!-- Response Input Section -->
+            <form method="POST">
+                <textarea name="user_response" placeholder="Type your response..." rows="3" style="width: 100%;"></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- End of Interview Message -->
+            {% if end %}
+                <div class="end-message">
+                    <p>The interview has concluded. Thank you for participating!</p>
+                </div>
+            {% endif %}
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Interview Agent. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

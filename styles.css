@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #007bff;
+}
+
+/* Conversation History */
+.conversation-history {
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.conversation-history h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #495057;
+}
+
+.conversation-history ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.conversation-history ul li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+}
+
+/* Current Question */
+.current-question {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #e9f7ef;
+    border-radius: 8px;
+    border: 1px solid #28a745;
+}
+
+.current-question h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #155724;
+}
+
+.current-question p {
+    font-size: 16px;
+}
+
+/* Response Input */
+form textarea {
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    resize: none;
+}
+
+form button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* End Message */
+.end-message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8d7da;
+    border-radius: 8px;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+}
